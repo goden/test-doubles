@@ -1,4 +1,4 @@
-package src.test.lab.testdoubles.dummy;
+package src.test.java.lab.testdoubles.dummy;
 
 import org.junit.jupiter.api.Test;
 import src.main.java.lab.testdoubles.dummy.DummyStudent;
