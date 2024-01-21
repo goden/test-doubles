@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 import java.util.List;
 
 public class Teacher {
+
     public Grades generateGrade(List<Mark> marks) {
 
         BigDecimal sum = marks.stream().map(mark -> mark.getMark()).reduce(BigDecimal.ZERO, BigDecimal::add);
