@@ -13,7 +13,7 @@ public class StudentServiceImpl implements StudentService{
     @Override
     public FindStudentResponse findStudent(String name) {
 
-        FindStudentResponse response = null;
+        FindStudentResponse response;
 
         try {
             Student student = studentDao.findByName(name);
