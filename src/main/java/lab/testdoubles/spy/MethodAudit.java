@@ -18,7 +18,7 @@ public class MethodAudit {
             list = new ArrayList<>();
         }
 
-        if (list.contains(invocation)) {
+        if (!list.contains(invocation)) {
             list.add(invocation);
         }
 
